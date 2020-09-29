@@ -1,0 +1,27 @@
+@import "../fonts/!fonts.css";
+
+:root {
+    font-size: 18px;
+    font-family: raleway;
+
+    --primary-color-light: #66ffa6;
+    --primary-color: #00e676;
+    --primary-color-dark: #00b248;
+
+    --secoundary-color-light: #69e2ff;
+    --secoundary-color: #00b0ff;
+    --secoundary-color-dark: #0081cb;
+}
+
+body {
+    margin: 0;
+}
+
+.navBar {
+    width: cover;
+    background-color: var(--primary-color-dark);
+}
+
+.navBar h1 {
+    margin: 0;
+}
